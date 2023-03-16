@@ -11,6 +11,8 @@ pathlib = "*"
 pandas = "*"
 numpy = "*"
 requests = "*"
+customized-headlines = {editable = true, path = "."}
+beautifulsoup4 = "*"
 
 [dev-packages]
 
