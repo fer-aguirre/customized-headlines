@@ -10,6 +10,7 @@ data_processed = paths.data_processed_dir()
 
 # Outputs
 news_sample = paths.data_processed_dir('news_sample.csv')
+news_content = paths.data_processed_dir('news_content.csv')
 
 
 """
