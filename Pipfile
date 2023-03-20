@@ -14,6 +14,14 @@ requests = "*"
 customized-headlines = {editable = true, path = "."}
 beautifulsoup4 = "*"
 tqdm = "*"
+sentence-transformers = "*"
+ipywidgets = "*"
+datasets = "*"
+streamlit = "*"
+openai = "*"
+matplotlib = "*"
+plotly = "*"
+tiktoken = "*"
 
 [dev-packages]
 
