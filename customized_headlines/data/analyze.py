@@ -9,6 +9,8 @@ from typing import List
 Function to get a list
 of column values
 """
+
+
 def get_col_val(df: pd.DataFrame, column_name: str) -> List:
     return df[column_name].tolist()
 
@@ -17,6 +19,8 @@ def get_col_val(df: pd.DataFrame, column_name: str) -> List:
 Function to make a http request 
 and parse html content
 """
+
+
 def make_request(url: str) -> BeautifulSoup:
     # Make a http request to the specified url
     response = Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -30,6 +34,8 @@ def make_request(url: str) -> BeautifulSoup:
 Function to parse text 
 from BeautifulSoup object
 """
+
+
 def extract_text(soup: BeautifulSoup) -> str:
     try:
         for data in soup(["style", "script"]):
