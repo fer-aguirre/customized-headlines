@@ -19,7 +19,7 @@ from the path provided
 """
 
 
-def get_csv_dir(dir: Union[PosixPath, str]):
+def get_csv_files(dir: Union[PosixPath, str]):
     # Get the csv files from the path provided
     return Path(dir).glob("*.csv")
 
