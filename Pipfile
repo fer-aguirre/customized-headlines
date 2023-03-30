@@ -22,6 +22,7 @@ openai = "*"
 matplotlib = "*"
 plotly = "*"
 tiktoken = "*"
+minet = "*"
 
 [dev-packages]
 
