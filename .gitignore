@@ -132,3 +132,6 @@ cython_debug/
 # Git secret
 config.ini
 .gitsecret/keys/random_seed
+
+# Directory
+downloaded/
