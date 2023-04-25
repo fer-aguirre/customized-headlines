@@ -23,6 +23,10 @@ matplotlib = "*"
 plotly = "*"
 tiktoken = "*"
 minet = "*"
+tweet-preprocessor = "*"
+gensim = "*"
+emoji = "*"
+pinecone-client = "*"
 
 [dev-packages]
 
